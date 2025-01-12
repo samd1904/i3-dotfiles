@@ -18,6 +18,7 @@ stow .
 ```
 
 ## Packages backed up
+You might need to install these packages before hand and delete/move their config files.
 - alacritty
 - i3
 - nvim (nvchad)
