@@ -18,8 +18,9 @@ stow .
 ```
 
 ## Packages backed up
-- Alacritty
+- alacritty
 - i3
-- nvim (kickstart.nvim)
+- nvim (nvchad)
+- polybar
 
 Config files should show up in ~/.config/ folder
