@@ -13,7 +13,9 @@ return {
       require "configs.lspconfig"
     end,
   },
-   -- {
+  { "neoclide/coc.nvim", branch = "release" },
+  {"clangd/coc-clangd"}
+  -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
   -- 		ensure_installed = {
