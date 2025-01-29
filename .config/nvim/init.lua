@@ -26,6 +26,20 @@ require("lazy").setup({
   { import = "plugins" },
 }, lazy_config)
 
+require("nvim-tree").setup {
+  git = {
+    ignore = false,
+  },
+}
+
+require("telescope").setup {
+  pickers = {
+    find_files = {
+      hidden = true,
+    },
+  },
+}
+
 -- load theme
 dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
@@ -45,5 +59,3 @@ vim.api.nvim_create_autocmd("BufDelete", {
     end
   end,
 })
-
-
