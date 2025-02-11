@@ -11,6 +11,8 @@ sudo pacman -S stow
 
 Backup existing configurations if any
 
+CD to cloned repository's directory
+
 Run Stow
 
 ```
