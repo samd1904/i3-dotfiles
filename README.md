@@ -21,7 +21,7 @@ stow .
 You might need to install these packages before hand and delete/move their config files.
 - alacritty
 - i3
-- nvim (nvchad)
+- nvim (lazyvim)
 - polybar
 
 Config files should show up in ~/.config/ folder
