@@ -1,6 +1,6 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/iterm.toml"
+    "~/.config/alacritty/themes/themes/moonfly.toml"
 ]
 [font]
 size = 7
