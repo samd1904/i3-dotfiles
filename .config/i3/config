@@ -143,6 +143,11 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
+assign [class="firefox"] → 1
+assign [class="Alacritty"] → 2
+assign [class="Postman"] → 3
+assign [class="MongoDB Compass"] → 4
+
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
